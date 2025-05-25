@@ -1,6 +1,7 @@
 streamlit
 streamlit-chat
 langchain
+langchain-community
 faiss-cpu
 sentence-transformers
 ctransformers
