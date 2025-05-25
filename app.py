@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_chat import message
 from io import BytesIO
-from langchain.document_loaders import CSVLoader, PyPDFLoader, UnstructuredWordDocumentLoader
+from langchain_community.document_loaders import CSVLoader, PyPDFLoader, UnstructuredWordDocumentLoader
 from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.llms import CTransformers
